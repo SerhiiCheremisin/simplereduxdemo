@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.main-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #978b8b;
+}
+.main-wrapper__sync-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.main-wrapper__sync-blog h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+.main-wrapper__sync-blog form {
+  display: flex;
+  flex-direction: column;
+}
+.main-wrapper__sync-blog form label {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+.main-wrapper__sync-blog form input {
+  font-size: 3rem;
+}
+.main-wrapper__sync-blog form input:focus {
+  outline: none;
+}
+.main-wrapper__sync-blog form button {
+  cursor: pointer;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+.main-wrapper__sync-blog h3 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.main-wrapper__async-blog {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.main-wrapper__async-blog h3 {
+  display: flex;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.main-wrapper__async-blog .bnt-wrapper {
+  display: flex;
+}
+.main-wrapper__async-blog .bnt-wrapper span {
+  font-size: 3rem;
+  display: flex;
+}
+.main-wrapper__async-blog .bnt-wrapper button {
+  width: 5rem;
+  height: 3rem;
+  font-size: 2rem;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+.main-wrapper__async-blog button {
+  height: 3rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  border: 2px dashed #d22c2c;
+  width: 100%;
+  height: 10vh;
+  cursor: pointer;
+  margin: 3rem 0;
+}
+.post h2 {
+  display: flex;
+  font-size: 2rem;
+}
+.post h3 {
+  display: flex;
+  font-size: 2rem;
+}
+.post button {
+  display: flex;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
