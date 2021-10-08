@@ -34,13 +34,6 @@ export function deleteAsyncPost(id:any) {
     }
 }
 
-export function asyncRun() {
-   return async (dispatch:any) => {
-       const request = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=5`)
-       const response = await request.json()
-       dispatch({type : POST_ASYNC, payload :response })
-   }
-}
 
 
 

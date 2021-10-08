@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect, useDispatch} from 'react-redux';
-import {increment,decrement,asyncRun} from '../redux/actions';
+import {increment,decrement} from '../redux/actions';
 import PostAsync from "./PostAsync";
 
 
@@ -26,7 +26,7 @@ const dispatch = useDispatch()
             <button onClick={() => dispatch(increment())}>+</button>
             <button onClick={() => dispatch(decrement())}>-</button>
         </div>
-        <button onClick={() => dispatch(asyncRun())}>Fetch</button>
+        <button onClick={() => dispatch({type:"ASYNC_SAGA_CLICK"})}>Fetch</button>
             {logic}
         </>
     );
